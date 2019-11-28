@@ -1,0 +1,31 @@
+/* Home page Styles */
+
+.hero-section {
+    background-image: url(../images/backgrounds/fries-hero-bg.jpg);
+    background-color: #fff;
+    height: 400px;
+    padding: 100px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-section>.top-header {
+    background-color: #11122b;
+    width: 300px;
+    padding: 1px 20px;
+    color: #cea135;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.hero-section>.bottom-header {
+    background-color: #cea135;
+    color: #11122b;
+    width: 120px;
+    text-align: center;
+    padding: 1px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
