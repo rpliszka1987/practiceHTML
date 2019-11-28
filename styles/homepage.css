@@ -29,3 +29,52 @@
     margin-top: 20px;
     border-radius: 5px;
 }
+
+/* Features area styles  */
+.features-wrapper {
+    height: 400px;
+    background-image: url(../images/backgrounds/fries-multiply-bg.jpg);
+    background-color: #cea135;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-wrapper>.columns-wrapper {
+    width: 1200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-wrapper>.columns-wrapper>.column {
+    padding: 20px;
+    margin: 40px;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.features-wrapper>.columns-wrapper>.column:hover {
+    border-bottom: 5px solid #11122b;
+}
+
+.features-wrapper>.columns-wrapper>.column :nth-child(1) {
+    font-size: 3em;
+}
+
+.features-wrapper>.columns-wrapper>.column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.features-wrapper>.columns-wrapper>.column :nth-child(2):hover {
+    letter-spacing: 1px;
+}
+
+.features-wrapper>.columns-wrapper>.column :nth-child(3) {
+    letter-spacing: 2px;
+}
