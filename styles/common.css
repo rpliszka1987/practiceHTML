@@ -141,3 +141,46 @@ body {
     letter-spacing: 1px;
     line-height: 30px;
 }
+
+/* Square Styling */
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squares-wrapper>.squares {
+    width: 1000px;
+}
+
+.squares-wrapper>.squares>.square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+
+}
+
+.square>.img-wrapper img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.square>.square-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 42px;
+}
+
+.square>.square-text h1 {
+    color: #cea135;
+}
+
+/* Helper class */
+
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
