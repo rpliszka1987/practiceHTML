@@ -1,0 +1,9 @@
+/* Button Styles */
+.btn {
+    background-color: #cea135;
+    padding: 10px 25px;
+    border-radius: 2px;
+    border: 1px solid #cea135;
+    font-size: 1.25rem;
+    transition: 0.3s;
+}
