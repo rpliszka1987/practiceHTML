@@ -35,6 +35,11 @@
     color: #11122b;
 }
 
+.form input:focus::-webkit-input-placeholder,
+.form textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
 .form textarea {
     margin-top: 20px;
     width: 100%;

@@ -21,3 +21,7 @@
     font-size: 1.25em;
     font-weight: 900;
 }
+
+.company-metadata-sidebar-wrapper>.company-details-wrapper i {
+    color: #cea135;
+}
